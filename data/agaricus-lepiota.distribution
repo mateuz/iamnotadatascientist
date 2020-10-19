@@ -1,0 +1,174 @@
+# classes
+edible=e    - 4208
+poisonous=p - 3916
+
+1. cap-shape (6)
+convex=x  - 3656
+flat=f    - 3152
+knobbed=k - 828
+bell=b    - 452
+sunken=s  - 32
+conical=c - 4
+
+2. cap-surface (4)
+scaly=y     - 3244
+smooth=s    - 2556
+fibrous=f   - 2320
+grooves=g   - 4
+
+3. cap-color (10)
+brown=n      - 2284
+gray=g       - 1840
+red=e        - 1500
+yellow=y     - 1072
+white=w      - 1040
+buff=b       - 168
+pink=p       - 144
+cinnamon=c   - 44
+purple=u     - 16
+green=r      - 16
+
+4. bruises (2)
+true=t - 4748
+no=f   - 3376
+
+5. odor (9)
+none=n      - 3528
+foul=f      - 2160
+fishy=y     - 576
+spicy=s     - 576
+anise=l     - 400
+almond=a    - 400
+pungent=p   - 256
+creosote=c  - 192
+musty=m     - 36
+
+6. gill-attachment (4)
+free=f        - 7914
+attached=a    - 210
+descending=d  - 0
+notched=n     - 0
+
+7. gill-spacing (3)
+close=c    - 6812
+crowded=w  - 1312
+distant=d  - 0
+
+8. gill-size (2)
+broad=b   - 5612  69.08%
+narrow=n  - 2512  30.92%
+
+9. gill-color (12)
+buff=b      - 1728 21.27%
+pink=p      - 1492 18.37%
+white=w     - 1202 14.80%
+brown=n     - 1048 12.90%
+gray=g      - 752   9.26%
+chocolate=h - 732   9.01%
+purple=u    - 492   6.06%
+black=k     - 408   5.02%
+red=e       - 96    1.18%
+yellow=y    - 86    1.06%
+orange=o    - 64    0.79%
+green=r     - 24    0.30%
+
+10. stalk-shape (2)
+tapering=t   - 4608 56.72%
+enlarging=e  - 3516 43.28%
+
+11. stalk-root (7)
+bulbous=b      - 3776  66.90%
+equal=e        - 1120  19.84%
+club=c         - 556    9.85%
+rooted=r       - 192    3.40%
+cup=u          - 0
+rhizomorphs=z  - 0
+missing=?      - 2480   ?.??%
+
+12. stalk-surface-above-ring
+smooth=s    - 5176 63.71% 
+silky=k     - 2372 29.20%
+fibrous=f   - 552   6.79%
+scaly=y     - 24    0.30% 
+
+13. stalk-surface-below-ring
+smooth=s    - 4936 60.76%
+silky=k     - 2304 28.36%
+fibrous=f   - 600   7.39%
+scaly=y     - 284   3.50%
+
+14. stalk-color-above-ring
+white=w      - 4464 54.95%
+pink=p       - 1872 23.04%
+gray=g       - 576   7.09%
+brown=n      - 448   5.51%
+buff=b       - 432   5.32%
+orange=o     - 192   2.36%
+red=e        - 96    1.18%
+cinnamon=c   - 36    0.44%
+yellow=y     - 8     0.10%
+
+15. stalk-color-below-ring
+white=w      - 4384  53.96%
+pink=p       - 1872  23.04%
+gray=g       - 576    7.09%
+brown=n      - 512    6.30%
+buff=b       - 432    5.32%
+orange=o     - 192    2.36%
+red=e        - 96     1.18%
+cinnamon=c   - 36     0.44%
+yellow=y     - 24     0.30%
+
+16. veil-type
+partial=p    - 8124 100.0%
+universal=u  - 0      0.0%
+
+17. veil-color
+white=w    - 7924 97.54%
+orange=o   - 96    1.18%
+brown=n    - 96    1.18%
+yellow=y   - 8     0.10%
+
+18. ring-number
+one=o   - 7488 92.17%
+two=t   - 600   7.39%
+none=n  - 36    0.44%
+
+19. ring-type
+pendant=p      - 3968 48.84%
+evanescent=e   - 2776 34.17%
+large=l        - 1296 15.95%
+flaring=f      - 48    0.59%
+none=n         - 36    0.44%
+cobwebby=c     - 0     0.00%
+sheathing=s    - 0     0.00%
+zone=z         - 0     0.00%
+
+20. spore-print-color
+white=w       -  2388  29.39
+brown=n       -  1968  24.22
+black=k       -  1872  23.04
+chocolate=h   -  1632  20.09
+green=r       -  72    0.89%
+yellow=y      -  48    0.59%
+purple=u      -  48    0.59%
+orange=o      -  48    0.59%
+buff=b        -  48    0.59%
+
+21. population
+several=v    - 4040  49.73%
+solitary=y   - 1712  21.07%
+scattered=s  - 1248  15.36%
+numerous=n   - 400    4.92%
+abundant=a   - 384    4.73%
+clustered=c  - 340    4.19%
+
+22. habitat
+woods=d      - 3148  38.75%
+grasses=g    - 2148  26.44%
+paths=p      - 1144  14.08%
+leaves=l     - 832   10.24%
+urban=u      - 368    4.53%
+meadows=m    - 292    3.59%
+waste=w      - 192    2.36%
+ 
