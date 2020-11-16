@@ -61,20 +61,20 @@ def fitness(X):
     clf.fit(xTrain, yTrain)
     predicted = clf.predict(xTest)
 
-    v1 = ((21 - np.count_nonzero(X)) / 21.0)
-    v2 = accuracy_score(yTest, predicted)
+    v1 = 21 - np.count_nonzero(X) 
+    v2 = accuracy_score(yTest, predicted) * 1000
 
-    return - (v1 + v2)
+    return -(v1 + v2)
 
 def runGA():
-    params = {'max_num_iteration': 30,\
+    params = {'max_num_iteration': 500,\
                    'population_size': 50,\
-                   'mutation_probability': 0.2,\
-                   'elit_ratio': 0.02,\
+                   'mutation_probability': 0.1,\
+                   'elit_ratio': 0.01,\
                    'crossover_probability': 0.5,\
                    'parents_portion': 0.3,\
                    'crossover_type': 'uniform',\
-                   'max_iteration_without_improv': 10}
+                   'max_iteration_without_improv': None}
 
     model=ga(function = fitness,\
                 dimension = 21,\

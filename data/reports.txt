@@ -85,3 +85,80 @@ Objective function: -0.996825396825397
 
  Objective function:
  -2000.899076923077
+
+ #####
+
+ > Exemplo peso v1 = ((21 - np.count_nonzero(X)) * 0.05)
+    v2 = accuracy_score(yTest, predicted)
+
+ {'max_num_iteration': 30, 'population_size': 50, 'mutation_probability': 0.2, 'elit_ratio': 0.02, 'crossover_probability': 0.5, 'parents_portion': 0.3, 'crossover_type': 'uniform', 'max_iteration_without_improv': 10}
+ The best solution found:                                                                           
+ [0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]
+
+ Objective function:
+ -1.8496923076923077
+
+
+#####
+
+ex_peso_3
+
+{
+    'max_num_iteration': 30,
+    'population_size': 50,
+    'mutation_probability': 0.2,
+    'elit_ratio': 0.02,
+    'crossover_probability': 0.5,
+    'parents_portion': 0.3,
+    'crossover_type': 'uniform',
+    'max_iteration_without_improv': 10
+}
+The best solution found:                                                                           
+[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0.]
+
+Objective function: -1.7740659340659342
+
+##### 
+
+ex_peso_4
+
+{
+   'max_num_iteration': 100,
+   'population_size': 100,
+   'mutation_probability': 0.1,
+   'elit_ratio': 0.01,
+   'crossover_probability': 0.5,
+   'parents_portion': 0.3,
+   'crossover_type': 'uniform',
+   'max_iteration_without_improv': None
+}
+
+The best solution found:                                                                           
+[0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]
+
+Objective function: -1.8518388278388278
+
+
+#####
+fs_500i_50p.png
+
+> v1 = 21 - np.count_nonzero(X)
+  v2 = accuracy_score(yTest, predicted) * 1000
+
+{
+    'max_num_iteration': 500,
+    'population_size': 50,
+    'mutation_probability': 0.1,
+    'elit_ratio': 0.01,
+    'crossover_probability': 0.5,
+    'parents_portion': 0.3,
+    'crossover_type': 'uniform',
+    'max_iteration_without_improv': None
+}
+
+The best solution found:                                                                           
+[0. 1. 1. 0. 1. 0. 1. 1. 0. 1. 0. 0. 1. 1. 0. 0. 1. 1. 1. 1. 1.]
+
+Objective function: -1003.6923076923076
+
+
